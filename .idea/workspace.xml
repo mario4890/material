@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26667fbf-ec40-48de-a279-d7bbc8e1f7b0" name="Default Changelist" comment="" />
+    <list default="true" id="26667fbf-ec40-48de-a279-d7bbc8e1f7b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MaterialGroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialGroupController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Material_group.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Material_group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/material_group/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/material_group/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/material_group/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/material_group/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/material_group/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/material_group/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +22,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,7 +126,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1QVVsgIm4zaPzA2IhNJEXhfXER8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -168,10 +182,25 @@
       <workItem from="1568486514006" duration="4839000" />
       <workItem from="1568493686299" duration="1856000" />
       <workItem from="1568518489381" duration="5664000" />
+      <workItem from="1568568487708" duration="3732000" />
+      <workItem from="1568608827498" duration="2336000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -16,8 +16,10 @@
     Route::match(['get'], '/material/new', 'MaterialController@new')->name('new_material');
     Route::match(['get'], '/material/edit/{material_id?}', 'MaterialController@edit')->name('edit_material');
     Route::match(['get'], '/material_group', 'MaterialGroupController@index')->name('materialGroup');
-    Route::match(['get'], '/material_group/new', 'MaterialGroupController@new')->name('materialGroup_material');
-    Route::match(['get'], '/material_group/edit/{material_group_id?}', 'MaterialGroupController@edit')->name('materialGroup_material');
+    Route::match(['get'], '/material_group/new', 'MaterialGroupController@new')->name('new_materialGroup');
+    Route::match(['post'], '/material_group/new', 'MaterialGroupController@new_save')->name('new_save_materialGroup');
+    Route::match(['get'], '/material_group/edit/{material_group_id}', 'MaterialGroupController@edit')->name('edit_materialGroup');
+    Route::match(['post'], '/material_group/edit/{material_group_id}', 'MaterialGroupController@edit_update')->name('edit_update_materialGroup');
     Route::match(['get'], '/unit-of-measure', 'UnitOfMeasureController@index')->name('unitOfMeasure');
     Route::match(['get'], '/unit-of-measure/new', 'UnitOfMeasureController@new')->name('new_unitOfMeasure');
     Route::match(['post'], '/unit-of-measure/new', 'UnitOfMeasureController@new_save')->name('new_save_unitOfMeasure');
